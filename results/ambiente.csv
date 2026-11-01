@@ -1,0 +1,10 @@
+,valor
+SO,Windows-11-10.0.26200-SP0
+CPU,"Intel64 Family 6 Model 154 Stepping 4, GenuineIntel"
+núcleos lógicos,8
+Python,3.12.6
+numpy,2.5.4
+pandas,3.0.6
+scikit-learn,1.9.1
+xgboost,3.4.1
+imbalanced-learn,0.14.2

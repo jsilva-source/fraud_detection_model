@@ -2,14 +2,14 @@
 
 Pesquisa necessária para a obtenção de Bacharel em Ciência da Computação pelo Centro Universitário Carlos Drummond de Andrade.
 
-Autores:
+**Autores:**
 
-Jairo Igor da Silva
-Jorge Luis Quispe Flores
-Kayham Cristoffer Guilhermino de Oliveira
+- Jairo Igor da Silva
+- Jorge Luis Quispe Flores
+- Kayham Cristoffer Guilhermino de Oliveira
 
-Orientador: Prof. Ms. Marcus Vinicius Camillo Gália
-Instituição: Centro Universitário Carlos Drummond de Andrade
+**Orientador:** Prof. Ms. Marcus Vinicius Camillo Gália<br>
+**Instituição:** Centro Universitário Carlos Drummond de Andrade
 
 ## Objetivo
 
@@ -47,7 +47,7 @@ em `data/`.
 
 ```
 data/         creditcard.csv (não versionado)
-notebooks/    note.ipynb (EDA, avaliação, sensibilidade, CV e benchmark)
+notebooks/    deteccao_fraudes_split_temporal.ipynb (EDA, avaliação, sensibilidade, CV e benchmark)
 results/      eda.png e CSVs com os resultados
 ```
 
@@ -59,7 +59,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Baixe o dataset (ver acima) e execute as células de `notebooks/note.ipynb` em ordem.
+Baixe o dataset (ver acima) e execute as células de `notebooks/deteccao_fraudes_split_temporal.ipynb` em ordem.
 `RANDOM_STATE = 42`. Em um notebook em ambiente comum, a execução completa leva por volta de quinze minutos (a CV e o RF com SMOTE são as partes mais lentas).
 
 ## Resultados principais (teste temporal)
